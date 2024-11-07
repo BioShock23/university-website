@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ergonomics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <div class="header-container">
+        <a class="logo-container" href="#">
+            <div class="logo">
+                <div class="arc arc-1"></div>
+                <div class="arc arc-2"></div>
+                <div class="arc arc-3"></div>
+            </div>
+            ergonomics
+        </a>
+        <nav>
+            <a href="#home">Главная</a>
+            <a href="#about">Об эргономике</a>
+            <a href="#devices">Устройства</a>
+            <a href="#features">Возможности</a>
+        </nav>
+    </div>
+</header>
+<main class="container" id="main">
+    <div id="home">
+        <svg class="matrix-animation" id="matrix"></svg>
+        <div class="home-content">
+            <h1>
+                <p style="color: #FFA538">Эргономика</p>
+                <p>рабочего места</p>
+                <p>разработчика</p>
+            </h1>
+            <div class="picture">
+                <img src="images/ergo.png" alt="ergonomics logo">
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <h2 class="about-header">
+            Об эргономике
+        </h2>
+        <div class="about-content">
+            <div class="about-content-text">
+                <b>Эргоно́мика</b> (от др.-греч.
+                <div class="tooltip">eργονομία<span class="tooltip-text">ἔργον — работа + νόμος — закон</span></div>
+                ) – наука о приспособлении должностных обязанностей, рабочих мест, предметов и объектов труда, а также
+                компьютерных программ для наиболее безопасного и эффективного труда работника, исходя из физических и
+                психических особенностей человеческого организма.
+            </div>
+            <div class="about-content-picture">
+                <img src="images/face-with-monocle.png" alt="Face with monocle">
+            </div>
+        </div>
+    </div>
+    <div id="devices">
+        <h2 class="devices-header">
+            Устройства
+        </h2>
+        <div class="devices-content">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/split-keyboard.webp" alt="Раздельная клавиатура" class="primary-image">
+                    <img src="images/split-keyboard-2.webp" alt="Раздельная клавиатура" class="hover-image">
+                </div>
+                <div class="card-content">
+                    <h3>Раздельная клавиатура</h3>
+                    <p>С этой клавиатурой ваша рука принимает естественное положение, а работая за обычной вам
+                        приходится изгибать руки в неестественное положение.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/vertical-mouse.webp" alt="Вертикальная мышь" class="primary-image">
+                    <img src="images/vertical-mouse-2.jpg" alt="Вертикальная мышь" class="hover-image">
+                </div>
+                <div class="card-content">
+                    <h3>Вертикальная мышь</h3>
+                    <p>При использовании обычной мыши рука находится в неестественном положении. Мышцы кисти находятся в
+                        постоянном напряжении, и это может приводить к туннельному синдрому</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/chair.jpg" alt="Эргономичный стул" class="primary-image">
+                    <img src="images/chair-2.avif" alt="Эргономичный стул" class="hover-image">
+                </div>
+                <div class="card-content">
+                    <h3>Эргономичный стул</h3>
+                    <p>Эргономическое кресло или стул – мебель, имеющая мягкое сиденье и удобную спинку с изгибом,
+                        повторяющим естественные контуры позвоночника. Такая конструкция обеспечивает правильное
+                        положение позвоночника, не нарушает кровообращение, обеспечивает комфорт в течение всего
+                        рабочего дня.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="features">
+        <h2 class="features-header">
+            Возможности
+        </h2>
+        <div class="features-content">
+            <div class="wide-card" style="cursor: pointer;" onclick="window.location='tasks/picture/picture.html';">
+                <div class="card-image">
+                    <img src="images/donkey.png" alt="Осёл" style="width: 20em;" class="primary-image">
+                </div>
+                <div class="card-content">
+                    <h3>Рисунок CSS</h3>
+                    <p>Изображение, состоящее из CSS фигур. Трава сделана с помощью градиента.</p>
+                </div>
+            </div>
+            <div class="wide-card" style="cursor: pointer;" onclick="window.location='tasks/flexbox/flexbox.html';">
+                <div class="card-image">
+                    <img src="images/flexbox.png" alt="Бренд" style="width: 20em;" class="primary-image">
+                </div>
+                <div class="card-content">
+                    <h3>Flexbox-бренд</h3>
+                    <p>Логотип, созданный при помощи svg и css анимаций.</p>
+                </div>
+            </div>
+            <div class="wide-card" style="cursor: pointer;" onclick="window.location='tasks/calculator/calculator.html';">
+                <div class="card-image">
+                    <img src="images/dunno.png" alt="Калькулятор" style="width: 20em;" class="primary-image">
+                </div>
+                <div class="card-content">
+                    <h3>Расчет длины каблука</h3>
+                    <p>Калькулятор, созданный при помощи JavaScript</p>
+                </div>
+            </div>
+            <div class="wide-card" style="cursor: pointer;" onclick="window.location='tasks/test/test.html';">
+                <div class="card-image">
+                    <img src="images/test.png" alt="DOM-Тест" style="width: 20em;" class="primary-image">
+                </div>
+                <div class="card-content">
+                    <h3>DOM-Тест</h3>
+                    <p>Тест, созданный с применением JavaScript и манипуляциями с DOM-деревом</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>О сайте</h3>
+                <p>Данный сайт был свёрстан и спроектирован в рамках курса "Вёрстка и прототипирование сайтов"</p>
+            </div>
+            <div class="footer-section">
+                <h3>ergonomics</h3>
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#about">Об эргономике</a></li>
+                    <li><a href="#devices">Устройства</a></li>
+                    <li><a href="#features">Возможности</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p>Email: miniahmetov.au@edu.spbstu.ru</p>
+                <p>Telegram: @bioshxck</p>
+            </div>
+        </div>
+        <p class="footer-bottom">© 2024 Arthur Miniakhmetov.</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

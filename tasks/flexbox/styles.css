@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#flexbox-task {
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.animation {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    display: block;
+}
+
+.animation:active {
+    animation: container-animation 3s linear 1 normal forwards;
+}
+
+@keyframes container-animation {
+    0% {
+        transform: translate(0, 0);
+    }
+    60% {
+        transform: translate(0, 0);
+    }
+    70% {
+        transform: translate(10%, 0);
+    }
+    80% {
+        transform: translate(-10%, 0);
+    }
+    90% {
+        transform: translate(10%, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}

@@ -1,0 +1,27 @@
+<svg id="container" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"
+     shape-rendering="geometricPrecision" text-rendering="geometricPrecision">
+    <style>
+        @import url(animation.styles.css);
+    </style>
+    <g id="letter-m" transform="translate(102.092671,98.771533) scale(5,5)">
+        <path id="letter-m-fill"
+              d="M0.912,9v-8.76h1.416L3.24,3.072c.088.256.168.512.24.768.072.248.124.44.156.576.04-.136.092-.328.156-.576.064-.256.136-.516.216-.78l.864-2.82h1.416v8.76h-1.056v-3.18c0-.352.012-.752.036-1.2s.056-.904.096-1.368c.04-.472.08-.92.12-1.344.048-.432.088-.808.12-1.128001L4.188,5.16h-1.14L1.62,0.779999C1.66,1.092,1.7,1.456,1.74,1.872c.04.408.076.844.108,1.308.032.456.06.912.084,1.368s.036.88.036,1.272v3.18h-1.056Z"
+              transform="translate(0,0)" fill="#ff00b7"/>
+    </g>
+    <g id="letter-a" transform="translate(67,50.154214) scale(5,5)">
+        <path id="letter-a-fill"
+              d="M0.6,9L2.88,0.24h1.452L6.6,9h-1.092L4.932,6.672h-2.652L1.704,9L0.6,9ZM2.496,5.76h2.208l-.672-2.7c-.128-.512-.228-.94-.3-1.284s-.116-.568-.132-.672c-.016.104-.06.328-.132.672s-.172.768-.3,1.272L2.496,5.76Z"
+              transform="translate(0,0)" fill="#fc0"/>
+    </g>
+    <rect id="square" width="5" height="5" rx="0" ry="0"
+          transform="translate(64.033476,89.290686)" fill="#5483cc"/>
+    <polygon id="triangle" points="0,8 8,8 4,0"
+             transform="translate(97.28008,134.879143)" fill="#5483cc"/>
+    <image id="image" width="150" height="150"
+           href="viselica.jpg"
+           transform="translate(25 25)" opacity="0"/>
+    <text id="text" dx="0" dy="0" font-family="impact" font-size="14" font-weight="400"
+          transform="translate(54 180)" opacity="0" stroke-width="0">
+        Льготные тарифы
+    </text>
+</svg>
