@@ -1,0 +1,88 @@
+* {
+    --gap: 15px;
+    --border-radius: 8px;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    height: 80vh;
+    max-height: 80vh;
+    width: 80vw;
+    max-width: 80vw;
+}
+
+.bordered {
+    border: black 1px solid;
+    border-radius: var(--border-radius);
+    padding: var(--gap);
+}
+
+#dropZone {
+    width: 100%;
+    height: 25%;
+    border: black 1px dashed;
+    background-color: #e9eeff;
+    position: relative;
+    display: flex;
+}
+
+.layout {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap);
+}
+
+#wordArea {
+    height: 100%;
+    width: 35%;
+    background-color: #fff4f0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap);
+    overflow-y: scroll;
+}
+
+#textInputArea {
+    width: 65%;
+    background-color: #ffeeee;
+    display: flex;  
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: var(--gap);
+}
+
+input {
+    width: 100%;
+    margin-right: var(--gap);
+}
+
+#outputArea {
+    height: 100%;
+    word-break: break-word;
+    overflow-y: scroll;
+}
+
+.draggable-item {
+    padding: 10px;
+    word-break: break-word;
+    max-width: 340px;
+    max-height: 250px;
+}

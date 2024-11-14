@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание Слова</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header>
+    <div class="header-container">
+        <a class="logo-container" href="#">
+            <div class="logo">
+                <div class="arc arc-1"></div>
+                <div class="arc arc-2"></div>
+                <div class="arc arc-3"></div>
+            </div>
+            ergonomics
+        </a>
+        <nav>
+            <a href="../../index.html#features">Вернуться назад</a>
+        </nav>
+    </div>
+</header>
+<section>
+    <div class="content-wrapper">
+        <div
+                id="dropZone"
+                class="bordered"
+                ondragover="onDragOver(event)"
+                ondrop="onDrop(event)"
+        >
+        </div>
+        <div class="layout">
+            <div
+                    id="wordArea"
+                    class="bordered"
+                    ondragover="onDragOver(event)"
+                    ondrop="onDrop(event)"
+            ></div>
+            <div
+                    id="textInputArea"
+                    class="bordered"
+            >
+                <div class="input-group">
+                    <label for="textInput"></label>
+                    <input
+                            type="text"
+                            id="textInput"
+                            placeholder="Введите текст здесь"
+                    >
+                    <button
+                            type="button"
+                            onclick="onButtonClick()"
+                    >
+                        Разобрать
+                    </button>
+                </div>
+                <div id="outputArea"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>О сайте</h3>
+            <p>Данный сайт был свёрстан и спроектирован в рамках курса "Вёрстка и прототипирование сайтов"</p>
+        </div>
+        <div class="footer-section">
+            <h3>ergonomics</h3>
+            <ul>
+                <li><a href="../../index.html#home">Главная</a></li>
+                <li><a href="../../index.html#about">Об эргономике</a></li>
+                <li><a href="../../index.html#devices">Устройства</a></li>
+                <li><a href="../../index.html#features">Возможности</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Контакты</h3>
+            <p>Email: miniahmetov.au@edu.spbstu.ru</p>
+            <p>Telegram: @bioshxck</p>
+        </div>
+    </div>
+    <p class="footer-bottom">© 2024 Arthur Miniakhmetov.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
